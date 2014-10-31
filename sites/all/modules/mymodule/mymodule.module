@@ -1,0 +1,15 @@
+<?php
+
+function mymodule_menu() {
+$items['mymodule_page'] = array('page callback' =>'mymodule_page',
+'access arguments' => array('access content'),
+'type' => MENU_CALLBACK, 
+);
+return $items;
+}
+
+function mymodule_page() {
+return "Hello Everyone";
+}
+
+?>

@@ -1,0 +1,5 @@
+name = mymodule
+description = "demo"
+package = build a module
+core = 7.x
+files[] = mymodule.module

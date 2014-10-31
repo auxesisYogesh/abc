@@ -1,0 +1,23 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+ 
+.container {
+width: 75%;
+}
+.navbar-default .navbar-nav>li>a:hover {
+color: red;
+background-image: url(../arr.png);
+background-repeat: no-repeat;
+background-position: center 0px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+color: red;
+background-color: transparent;
+}
+
+.views-field.views-field-field-sliderimages {
+margin-left: -176px;
+}
